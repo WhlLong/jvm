@@ -1,0 +1,26 @@
+Java HotSpot(TM) 64-Bit Server VM (25.201-b09) for linux-amd64 JRE (1.8.0_201-b09), built on Dec 15 2018 11:35:59 by "java_re" with gcc 7.3.0
+Memory: 4k page, physical 8046512k(1091320k free), swap 1371064k(191840k free)
+CommandLine flags: -XX:CompressedClassSpaceSize=2097152 -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=./ -XX:InitialHeapSize=128744192 -XX:MaxHeapSize=2059907072 -XX:MaxMetaspaceSize=10485760 -XX:MaxNewSize=348966912 -XX:MaxTenuringThreshold=6 -XX:MetaspaceSize=10485760 -XX:OldPLABSize=16 -XX:+PrintGC -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:+UseConcMarkSweepGC -XX:+UseParNewGC 
+0.500: [GC (Allocation Failure) 0.500: [ParNew: 33856K->1576K(38080K), 0.0021910 secs] 33856K->1576K(122752K), 0.0022694 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+0.661: [GC (Allocation Failure) 0.661: [ParNew: 35432K->1902K(38080K), 0.0035480 secs] 35432K->1902K(122752K), 0.0036278 secs] [Times: user=0.01 sys=0.00, real=0.01 secs] 
+0.795: [GC (Allocation Failure) 0.795: [ParNew: 35758K->1731K(38080K), 0.0029598 secs] 35758K->1731K(122752K), 0.0030318 secs] [Times: user=0.00 sys=0.01, real=0.00 secs] 
+0.920: [GC (Allocation Failure) 0.921: [ParNew: 35587K->2320K(38080K), 0.0028921 secs] 35587K->2320K(122752K), 0.0029522 secs] [Times: user=0.01 sys=0.00, real=0.01 secs] 
+1.057: [Full GC (Metadata GC Threshold) 1.057: [CMS: 0K->2290K(84672K), 0.0259449 secs] 30767K->2290K(122752K), [Metaspace: 9108K->9108K(1058816K)], 0.0261338 secs] [Times: user=0.02 sys=0.01, real=0.03 secs] 
+1.083: [Full GC (Last ditch collection) 1.083: [CMS: 2290K->1254K(84672K), 0.0120511 secs] 2290K->1254K(122816K), [Metaspace: 9108K->9108K(1058816K)], 0.0121514 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+1.099: [GC (CMS Initial Mark) [1 CMS-initial-mark: 1254K(84672K)] 1933K(122816K), 0.0010087 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+1.100: [CMS-concurrent-mark-start]
+1.110: [CMS-concurrent-mark: 0.011/0.011 secs] [Times: user=0.03 sys=0.00, real=0.01 secs] 
+1.127: [CMS-concurrent-preclean-start]
+1.128: [CMS-concurrent-preclean: 0.001/0.001 secs] [Times: user=0.00 sys=0.00, real=0.00 secs] 
+1.136: [Full GC (Metadata GC Threshold) 1.136: [CMS (concurrent mode failure): 1254K->1246K(84672K), 0.0092229 secs] 2604K->1246K(122816K), [Metaspace: 9104K->9104K(1058816K)], 0.0093561 secs] [Times: user=0.01 sys=0.00, real=0.01 secs] 
+1.146: [Full GC (Last ditch collection) 1.146: [CMS: 1246K->1246K(84672K), 0.0088733 secs] 1246K->1246K(122816K), [Metaspace: 9104K->9104K(1058816K)], 0.0089764 secs] [Times: user=0.01 sys=0.00, real=0.01 secs] 
+1.166: [Full GC (Metadata GC Threshold) 1.166: [CMS: 1246K->1250K(84672K), 0.0098148 secs] 1917K->1250K(122816K), [Metaspace: 9129K->9129K(1058816K)], 0.0099900 secs] [Times: user=0.01 sys=0.00, real=0.01 secs] 
+1.176: [Full GC (Last ditch collection) 1.176: [CMS: 1250K->1250K(84672K), 0.0102996 secs] 1250K->1250K(122816K), [Metaspace: 9129K->9129K(1058816K)], 0.0104269 secs] [Times: user=0.01 sys=0.00, real=0.01 secs] 
+Heap
+ par new generation   total 38144K, used 1010K [0x0000000085200000, 0x0000000087b60000, 0x0000000099ec0000)
+  eden space 33920K,   2% used [0x0000000085200000, 0x00000000852fc890, 0x0000000087320000)
+  from space 4224K,   0% used [0x0000000087320000, 0x0000000087320000, 0x0000000087740000)
+  to   space 4224K,   0% used [0x0000000087740000, 0x0000000087740000, 0x0000000087b60000)
+ concurrent mark-sweep generation total 84672K, used 1250K [0x0000000099ec0000, 0x000000009f170000, 0x0000000100000000)
+ Metaspace       used 9135K, capacity 10178K, committed 10240K, reserved 1058816K
+  class space    used 818K, capacity 873K, committed 896K, reserved 1048576K
